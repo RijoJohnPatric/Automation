@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13462" started-at="2019-09-26T09:45:45Z" finished-at="2019-09-26T09:45:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13462" started-at="2019-09-26T09:45:45Z" finished-at="2019-09-26T09:45:58Z">
+      <class name="appTest.TestScript">
+        <test-method status="PASS" signature="initialze()[pri:0, instance:appTest.TestScript@6ad5c04e]" name="initialze" is-config="true" duration-ms="6295" started-at="2019-09-26T15:15:45Z" finished-at="2019-09-26T15:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialze -->
+        <test-method status="PASS" signature="Objects()[pri:0, instance:appTest.TestScript@6ad5c04e]" name="Objects" is-config="true" duration-ms="16" started-at="2019-09-26T15:15:51Z" finished-at="2019-09-26T15:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Objects -->
+        <test-method status="PASS" signature="runUserLogin()[pri:0, instance:appTest.TestScript@6ad5c04e]" name="runUserLogin" duration-ms="2129" started-at="2019-09-26T15:15:51Z" finished-at="2019-09-26T15:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runUserLogin -->
+        <test-method status="FAIL" signature="runRegistration()[pri:1, instance:appTest.TestScript@6ad5c04e]" name="runRegistration" duration-ms="4962" started-at="2019-09-26T15:15:53Z" finished-at="2019-09-26T15:15:58Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate an element using id=cmbtitle
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SJJCJ87', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=cmbtitle
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SJJCJ87', ip: '192.168.1.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at appPages.Registration.patientRegistration(Registration.java:45)
+	at appTest.TestScript.runRegistration(TestScript.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRegistration -->
+      </class> <!-- appTest.TestScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
