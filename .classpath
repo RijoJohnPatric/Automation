@@ -3,5 +3,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="MavenPro/src/main/java"/>
 	<classpathentry kind="src" path="MavenPro/src/test/java"/>
+	<classpathentry kind="lib" path="F:/Sel_Workspace/Git Repo/Automation/selenium-server-standalone-3.141.60.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="MavenPro/target/classes"/>
 </classpath>
