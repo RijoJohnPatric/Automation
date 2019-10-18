@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="MavenPro/src/main/java"/>
-	<classpathentry kind="src" path="MavenPro/src/test/java"/>
-	<classpathentry kind="lib" path="F:/Sel_Workspace/Git Repo/Automation/selenium-server-standalone-3.141.60.jar"/>
+	<classpathentry kind="src" path="AutomationMavenPro/src/main/java"/>
+	<classpathentry kind="src" path="AutomationMavenPro/src/test/java"/>
+	<classpathentry kind="lib" path="AutomationMavenPro/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="output" path="MavenPro/target/classes"/>
+	<classpathentry kind="output" path="AutomationMavenPro/target/classes"/>
 </classpath>

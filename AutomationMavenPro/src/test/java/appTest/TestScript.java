@@ -37,10 +37,11 @@ public class TestScript extends BaseClass
 			System.out.println("Assertion Passed");
 		}
 		
-//		@Test(priority = 1)
-//		public void runRegistration() throws InterruptedException
-//		{
-//			objReg.patientRegistration();
-//		}
+		@Test(priority = 1)
+		public void runRegistration() throws InterruptedException
+		{
+			objReg.patientRegistration();
+		}
 	}
+
 

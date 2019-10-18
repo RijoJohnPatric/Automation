@@ -7,9 +7,8 @@ import java.io.IOException;
 import java.util.Properties;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-
-import com.sun.org.apache.bcel.internal.generic.Select;
 
 public class ComFunc extends BaseClass
 {
